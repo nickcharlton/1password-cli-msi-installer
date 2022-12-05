@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<?define Manufacturer = "Nick Charlton" ?>
+	<?define ProductVersion = "2.8.0" ?>
+
+	<?if $(var.Platform) = x64?>
+	<?define PlatformProductName = "1Password CLI (x64)"?>
+	<?define PlatformUpgradeCode = "D7D4A655-76AB-45C9-B50F-0A8C1009E8F5"?>
+	<?define PlatformProgramFilesFolder = "ProgramFiles64Folder"?>
+	<?else ?>
+	<?define PlatformProductName = "1Password CLI (x86)"?>
+	<?define PlatformUpgradeCode = "E21CFAE2-49F0-489C-A069-437374D61DA5"?>
+	<?define PlatformProgramFilesFolder = "ProgramFilesFolder"?>
+	<?endif ?>
+</Include>
