@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Include>
 	<?define Manufacturer = "Nick Charlton" ?>
-	<?define ProductVersion = "2.18.0" ?>
+	<?define ProductVersion = "2.19.0" ?>
 
 	<?if $(var.Platform) = x64?>
 	<?define PlatformProductName = "1Password CLI (x64)"?>
